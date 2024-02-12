@@ -1,0 +1,49 @@
+Conditional statements in programming are used to execute different blocks of code based on whether a specified condition evaluates to true or false. They allow you to control the flow of your program by making decisions and executing different actions accordingly.
+
+In JavaScript, there are primarily two types of conditional statements:
+
+1. if statement: Executes a block of code if a specified condition is true.
+2. if...else statement: Executes one block of code if the specified condition is true and another block of code if the condition is false.
+
+ Syntax:
+
+1. if statement:
+   javascript
+   if (condition) {
+       // code block to be executed if the condition is true
+   }
+   
+
+2. if...else statement:
+   javascript
+   if (condition) {
+       // code block to be executed if the condition is true
+   } else {
+       // code block to be executed if the condition is false
+   }
+
+ Examples:
+
+ 1. if statement:
+javascript
+let temperature = 25;
+
+if (temperature > 20) {
+    console.log("It's a warm day."); // Output: "It's a warm day."
+}
+
+In this example, the message "It's a warm day." will be logged to the console if the temperature is greater than 20.
+
+ 2. if...else statement:
+javascript
+let age = 25;
+
+if (age >= 18) {
+    console.log("You are eligible to vote."); // Output: "You are eligible to vote."
+} else {
+    console.log("You are not eligible to vote.");
+}
+
+In this example, if the age is 18 or greater, the message "You are eligible to vote." will be logged to the console; otherwise, the message "You are not eligible to vote." will be logged.
+
+Conditional statements allow you to control the flow of your code based on various conditions, making your programs more flexible and responsive to different scenarios. They are fundamental constructs in programming and are used extensively in building complex algorithms and applications.
